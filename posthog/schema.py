@@ -2579,7 +2579,7 @@ class CachedRetentionQueryResponse(BaseModel):
     )
 
 
-class DashboardFilter(BaseModel):  # TODO: Rename to `DashboardFilters` for consistency with `HogQLFilters`
+class DashboardFilter(BaseModel):
     model_config = ConfigDict(
         extra="forbid",
     )
