@@ -749,7 +749,7 @@ class QueryStatus(BaseModel):
     error_message: Optional[str] = None
     expiration_time: Optional[AwareDatetime] = None
     id: str
-    query_async: Optional[bool] = True
+    query_async: Literal[True] = Field(default=True, description="ONLY async queries use QueryStatus.")
     results: Optional[Any] = None
     start_time: Optional[AwareDatetime] = None
     task_id: Optional[str] = None
