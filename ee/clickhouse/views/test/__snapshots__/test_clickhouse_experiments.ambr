@@ -3,10 +3,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:11', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:09', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:11', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:11', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:09', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:09', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
@@ -217,10 +217,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:12', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:10', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:12', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:12', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:10', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:10', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
@@ -431,10 +431,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:14', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:12', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:14', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:14', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:12', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:12', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
@@ -645,10 +645,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:15', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:13', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:15', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:15', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:13', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:13', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
@@ -859,10 +859,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:18', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:16', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:18', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:18', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:16', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:16', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
@@ -1154,10 +1154,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:19', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:17', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:19', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:19', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:17', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:17', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
@@ -1329,10 +1329,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:21', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:19', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:21', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:21', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:19', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:19', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
@@ -1610,10 +1610,10 @@
   '''
   /* user_id:0 celery:posthog.tasks.tasks.sync_insight_caching_state */
   SELECT team_id,
-         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:39:23', 'UTC')) AS age
+         date_diff('second', max(timestamp), toDateTime('2024-05-09 21:51:21', 'UTC')) AS age
   FROM events
-  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:39:23', 'UTC'))
-    AND timestamp < toDateTime('2024-05-09 21:39:23', 'UTC')
+  WHERE timestamp > date_sub(DAY, 3, toDateTime('2024-05-09 21:51:21', 'UTC'))
+    AND timestamp < toDateTime('2024-05-09 21:51:21', 'UTC')
   GROUP BY team_id
   ORDER BY age;
   '''
